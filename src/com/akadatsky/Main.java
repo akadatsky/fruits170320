@@ -13,12 +13,10 @@ public class Main {
         Fruit orange;
         Fruit carrot;
 
-        CashMachine cashMachine1 = new CashMachine();
-        cashMachine1.add(greenApple);
-        cashMachine1.add(redApple);
-        cashMachine1.printBill();
-
-        CashMachine cashMachine2 = new CashMachine();
+        CashMachine cashMachine = new CashMachine();
+        cashMachine.add(greenApple);
+        cashMachine.add(redApple);
+        cashMachine.printBill();
     }
 
 }
