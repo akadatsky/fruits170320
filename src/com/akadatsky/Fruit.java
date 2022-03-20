@@ -11,14 +11,6 @@ public class Fruit {
     private int weight;
     private double pricePerKg;
 
-    public Fruit() {
-    }
-
-    public Fruit(int weight, double pricePerKg) {
-        this.weight = weight;
-        this.pricePerKg = pricePerKg;
-    }
-
     public Fruit(Color color, Type type, int weight, double pricePerKg) {
         this.color = color;
         this.type = type;
@@ -30,32 +22,18 @@ public class Fruit {
         return color;
     }
 
-    public void setColor(Color color) {
-        this.color = color;
-    }
 
     public Type getType() {
         return type;
-    }
-
-    public void setType(Type type) {
-        this.type = type;
     }
 
     public int getWeight() {
         return weight;
     }
 
-    public void setWeight(int weight) {
-        this.weight = weight;
-    }
 
     public double getPricePerKg() {
         return pricePerKg;
-    }
-
-    public void setPricePerKg(double pricePerKg) {
-        this.pricePerKg = pricePerKg;
     }
 
     @Override
