@@ -16,7 +16,7 @@ public class CashMachine {
         for (Fruit fruit : fruits) {
             result += fruit.getPricePerKg() * fruit.getWeight() / 1000.0;
         }
-        System.out.println("Result: " + result);
+        System.out.printf("Result: "+"%(.2f%n", + result);
     }
 
 }
